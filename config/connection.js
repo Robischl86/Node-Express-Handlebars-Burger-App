@@ -1,5 +1,6 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
+const heroku = require("heroku");
 
 var connection = mysql.createConnection({
   host: "localhost",
